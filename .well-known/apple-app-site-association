@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "GTH77F75XH.mateus.Swift6-UniversalLinks" ],
+        "components": [
+          {
+            "/": "/insight/*",
+            "comment": "Permite que qualquer link que comece com /insight/ abra o Ecos"
+          }
+        ]
+      }
+    ]
+  }
+}

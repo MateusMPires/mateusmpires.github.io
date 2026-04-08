@@ -14,72 +14,82 @@
         body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 min-h-screen flex flex-col">
+<body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100 min-h-screen flex flex-col relative">
 
-    <header class="w-full max-w-5xl mx-auto p-6 flex justify-between items-center">
-        <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-gray-900 dark:bg-white rounded-xl shadow-sm flex items-center justify-center">
-                <span class="text-white dark:text-gray-900 font-bold text-xl">E</span>
-            </div>
-            <span class="font-semibold text-xl tracking-tight">Ecos</span>
-        </div>
-        <a href="mailto:mateusmp.df@icloud.com" class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
-            Suporte
-        </a>
-    </header>
+    <div class="fixed inset-0 z-[-1] bg-[#F2F2F7] opacity-10 dark:hidden" aria-hidden="true"></div>
 
-    <main class="flex-grow flex flex-col items-center justify-center px-6 text-center mt-10 md:mt-20">
-        
-        <span class="px-4 py-1.5 mb-6 text-xs font-semibold bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200 rounded-full">
-            Zero Coleta de Dados
-        </span>
-
-        <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-3xl">
-            Sua segunda mente.
-        </h1>
-        
-        <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 max-w-2xl leading-relaxed">
-            Acreditamos que seus pensamentos são sagrados. Todo o conteúdo que você escreve é processado e armazenado exclusivamente no seu dispositivo, protegido por biometria.
-        </p>
-
-        <a href="URL_DO_SEU_APP_NA_APPSTORE" target="_blank" rel="noopener noreferrer" class="transition transform hover:scale-105">
-            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/pt-br?size=250x83&amp;releaseDate=12765600&h=d2fbff4bc4b3017bb59bf0f1af97652c" alt="Download on the App Store" class="h-14 md:h-16">
-        </a>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24 max-w-5xl text-left">
-            <div class="p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800">
-                <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mb-4 text-2xl">
-                    🔒
+    <div class="relative z-10 flex-grow flex flex-col">
+        <header class="w-full max-w-5xl mx-auto p-6 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gray-900 dark:bg-white rounded-xl shadow-sm flex items-center justify-center">
+                    <span class="text-white dark:text-gray-900 font-bold text-xl">E</span>
                 </div>
-                <h3 class="text-xl font-semibold mb-2">100% Local</h3>
-                <p class="text-gray-600 dark:text-gray-400 text-sm">Seus dados são salvos no armazenamento protegido do seu iPhone. Não temos servidores.</p>
+                <span class="font-semibold text-xl tracking-tight">Ecos</span>
             </div>
+            <a href="mailto:mateusmp.df@icloud.com" class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors">
+                Suporte
+            </a>
+        </header>
+
+        <main class="flex-grow flex flex-col items-center justify-center px-6 text-center mt-10 md:mt-20">
             
-            <div class="p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800">
-                <div class="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-4 text-2xl">
-                    🛡️
-                </div>
-                <h3 class="text-xl font-semibold mb-2">Proteção Biométrica</h3>
-                <p class="text-gray-600 dark:text-gray-400 text-sm">Camada extra de segurança através do FaceID ou TouchID gerenciada pelo próprio iOS.</p>
+            <span class="px-4 py-1.5 mb-6 text-xs font-semibold bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200 rounded-full">
+                Zero Coleta de Dados
+            </span>
+
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-3xl leading-tight">
+                Sua coleção pessoal de insights para se inspirar diariamente.
+            </h1>
+            
+            <p class="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 max-w-2xl leading-relaxed">
+                Acreditamos que seus pensamentos são sagrados. Todo o conteúdo que você escreve é processado e armazenado exclusivamente no seu dispositivo, protegido por biometria.
+            </p>
+
+            <a href="URL_DO_SEU_APP_NA_APPSTORE" target="_blank" rel="noopener noreferrer" class="transition transform hover:scale-105">
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/pt-br?size=250x83&amp;releaseDate=12765600&h=d2fbff4bc4b3017bb59bf0f1af97652c" alt="Download on the App Store" class="h-14 md:h-16">
+            </a>
+
+            <div class="mt-16 md:mt-20 w-full max-w-lg mx-auto px-4">
+                <img src="https://via.placeholder.com/500x900/eeeeee/aaaaaa?text=Print+da+Tela+do+App" 
+                     alt="Captura de tela do aplicativo Ecos" 
+                     class="w-full h-auto rounded-2xl shadow-xl border border-gray-100 dark:border-gray-800">
             </div>
 
-            <div class="p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800">
-                <div class="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center mb-4 text-2xl">
-                    ⚡
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24 max-w-5xl text-left px-4">
+                <div class="p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800">
+                    <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mb-4 text-2xl">
+                        🔒
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">100% Local</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Seus dados são salvos no armazenamento protegido do seu iPhone. Não temos servidores.</p>
                 </div>
-                <h3 class="text-xl font-semibold mb-2">Widgets Inteligentes</h3>
-                <p class="text-gray-600 dark:text-gray-400 text-sm">A curadoria e o algoritmo rodam direto no processador do seu celular, economizando bateria.</p>
-            </div>
-        </div>
-    </main>
+                
+                <div class="p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800">
+                    <div class="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-4 text-2xl">
+                        🛡️
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Proteção Biométrica</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Camada extra de segurança através do FaceID ou TouchID gerenciada pelo próprio iOS.</p>
+                </div>
 
-    <footer class="w-full text-center py-8 mt-16 text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800">
-        <p>© 2026 Ecos. Desenvolvido no Brasil.</p>
-        <div class="mt-2 space-x-4">
-            <a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Política de Privacidade</a>
-            <a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Termos de Uso</a>
-        </div>
-    </footer>
+                <div class="p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800">
+                    <div class="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center mb-4 text-2xl">
+                        ⚡
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Widgets Inteligentes</h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">A curadoria e o algoritmo rodam direto no processador do seu celular, economizando bateria.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="w-full text-center py-8 mt-16 text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800 relative z-10">
+            <p>© 2026 Ecos. Desenvolvido no Brasil.</p>
+            <div class="mt-2 space-x-4">
+                <a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Política de Privacidade</a>
+                <a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Termos de Uso</a>
+            </div>
+        </footer>
+    </div>
 
 </body>
 </html>
